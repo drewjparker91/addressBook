@@ -9,6 +9,14 @@ AddressBook.prototype.addContact = function(contact) {
   this.contacts.push(contact);
 }
 
+// AddressBook.prototype.updateContact = function(Chloe, Hellberg) {
+//   if(contact) {
+//     this.contact.firstName("Drew");
+//   }
+// }
+
+AddressBook.updateContact("")
+
 AddressBook.prototype.assignId = function() {
   this.currentId += 1;
   return this.currentId;
